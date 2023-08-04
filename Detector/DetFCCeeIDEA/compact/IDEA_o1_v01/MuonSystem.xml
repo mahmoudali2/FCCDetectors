@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lccdd>
+
+
+  <detectors>
+
+    <!-- B A R R E L S -->
+    <detector name="MuonBarrel1" type="SimpleLayeredCylinder"  vis="MuonVisEnv">
+      <dimensions rmin="4500*mm" rmax="4540*mm" dz="4500*mm" z_offset="0*cm" material="Air"/>
+      <!-- 1st mRWELL layer -->
+      <layer rmin="4520*mm" rmax="4521.6*mm" dz="4500*mm" z_offset="0*cm" material="G10_FR40x5633439ca570" vis="MuonVis" />
+      <layer rmin="4521.6*mm" rmax="4521.635*mm" dz="4500*mm" z_offset="0*cm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="4521.635*mm" rmax="4527.635*mm" dz="4500*mm" z_offset="0*cm" material="C19-H20-O4" vis="MuonVis" />
+      <layer rmin="4527.635*mm" rmax="4527.64*mm" dz="4500*mm" z_offset="0*cm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="4527.64*mm" rmax="4527.69*mm" dz="4500*mm" z_offset="0*cm" material="Kapton" vis="MuonVis" />
+      <layer rmin="4527.69*mm" rmax="4527.6901*mm" dz="4500*mm" z_offset="0*cm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="4527.6901*mm" rmax="4527.7251*mm" dz="4500*mm" z_offset="0*cm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="4527.7251*mm" rmax="4527.8251*mm" dz="4500*mm" z_offset="0*cm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="4527.8251*mm" rmax="4527.8601*mm" dz="4500*mm" z_offset="0*cm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="4527.8601*mm" rmax="4529.4601*mm" dz="4500*mm" z_offset="0*cm" material="G4_Si0x56335d3d1480" vis="MuonVis" />
+    </detector>
+
+    <detector name="ReturnYoke1" type="SimpleLayeredCylinder"  vis="MuonVisEnv" color="FF0000">
+      <dimensions rmin="4540*mm" rmax="4860*mm" dz="4500*mm" z_offset="0*cm" material="Air"/>
+      <!-- 1st Return Yoke layer -->
+      <layer rmin="4560*mm" rmax="4860*mm" dz="4500*mm" z_offset="0*cm" material="G4_Fe" vis="MuonVis" color="FF0000"/>
+    </detector>
+
+    <detector name="MuonBarrel2" type="SimpleLayeredCylinder"  vis="MuonVisEnv" >
+      <dimensions rmin="4860*mm" rmax="4900*mm" dz="4500*mm" z_offset="0*cm" material="Air"/>
+      <!-- 2nd mRWELL layer -->
+      <layer rmin="4880*mm" rmax="4881.6*mm" dz="4500*mm" z_offset="0*cm" material="G10_FR40x5633439ca570" vis="MuonVis" />
+      <layer rmin="4881.6*mm" rmax="4881.635*mm" dz="4500*mm" z_offset="0*cm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="4881.635*mm" rmax="4887.635*mm" dz="4500*mm" z_offset="0*cm" material="C19-H20-O4" vis="MuonVis" />
+      <layer rmin="4887.635*mm" rmax="4887.64*mm" dz="4500*mm" z_offset="0*cm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="4887.64*mm" rmax="4887.69*mm" dz="4500*mm" z_offset="0*cm" material="Kapton" vis="MuonVis" />
+      <layer rmin="4887.69*mm" rmax="4887.6901*mm" dz="4500*mm" z_offset="0*cm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="4887.6901*mm" rmax="4887.7251*mm" dz="4500*mm" z_offset="0*cm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="4887.7251*mm" rmax="4887.8251*mm" dz="4500*mm" z_offset="0*cm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="4887.8251*mm" rmax="4887.8601*mm" dz="4500*mm" z_offset="0*cm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="4887.8601*mm" rmax="4889.4601*mm" dz="4500*mm" z_offset="0*cm" material="G4_Si0x56335d3d1480" vis="MuonVis" />
+    </detector>
+
+    <detector name="ReturnYoke2" type="SimpleLayeredCylinder"  vis="MuonVisEnv" color="FF0000">
+      <dimensions rmin="4900*mm" rmax="5220*mm" dz="4500*mm" z_offset="0*cm" material="Air"/>
+      <!-- 2nd Return Yoke layer -->
+      <layer rmin="4920*mm" rmax="5220*mm" dz="4500*mm" z_offset="0*cm" material="G4_Fe" vis="MuonVis" color="FF0000"/>
+    </detector>
+
+    <detector name="MuonBarrel3" type="SimpleLayeredCylinder"  vis="MuonVisEnv">
+      <dimensions rmin="5220*mm" rmax="5260*mm" dz="5260*mm" z_offset="0*cm" material="Air"/>
+      <!-- 3rd mRWELL layer -->
+      <layer rmin="5240*mm" rmax="5241.6*mm" dz="5260*mm" z_offset="0*cm" material="G10_FR40x5633439ca570" vis="MuonVis" />
+      <layer rmin="5241.6*mm" rmax="5241.635*mm" dz="5260*mm" z_offset="0*cm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="5241.635*mm" rmax="5247.635*mm" dz="5260*mm" z_offset="0*cm" material="C19-H20-O4" vis="MuonVis" />
+      <layer rmin="5247.635*mm" rmax="5247.64*mm" dz="5260*mm" z_offset="0*cm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="5247.64*mm" rmax="5247.69*mm" dz="5260*mm" z_offset="0*cm" material="Kapton" vis="MuonVis" />
+      <layer rmin="5247.69*mm" rmax="5247.6901*mm" dz="5260*mm" z_offset="0*cm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="5247.6901*mm" rmax="5247.7251*mm" dz="5260*mm" z_offset="0*cm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="5247.7251*mm" rmax="5247.8251*mm" dz="5260*mm" z_offset="0*cm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="5247.8251*mm" rmax="5247.8601*mm" dz="5260*mm" z_offset="0*cm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="5247.8601*mm" rmax="5249.4601*mm" dz="5260*mm" z_offset="0*cm" material="G4_Si0x56335d3d1480" vis="MuonVis" />
+    </detector>
+
+
+
+
+
+    <!-- F o r w a r d -->
+    <detector name="MuonFwd-R1" type="SimpleLayeredCylinder"  vis="MuonVisEnv">
+      <dimensions rmin="685*mm" rmax="5220*mm" dz="20*mm" z_offset="2260*mm" material="Air"/>
+      <!-- 1st Forward mRWELL layer R-->
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.8*mm" z_offset="2260.8*mm" material="G10_FR40x5633439ca570" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="2260.8175*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="3.0*mm" z_offset="2263.8175*mm" material="C19-H20-O4" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0025*mm" z_offset="2263.82*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.025*mm" z_offset="2263.845*mm" material="Kapton" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.00005*mm" z_offset="2263.84505*mm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="2263.86255*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.05*mm" z_offset="2263.91255*mm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="2263.93005*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.8*mm" z_offset="2264.73005*mm" material="G4_Si0x56335d3d1480" vis="MuonVis" />
+    </detector>
+
+    <detector name="ReturnYokeFwd-R1" type="SimpleLayeredCylinder"  vis="MuonVisEnv" color="FF0000">
+      <dimensions rmin="685*mm" rmax="5220*mm" dz="160*mm" z_offset="2350*mm" material="Air"/>
+      <!-- 1st Return Yoke layer R-->
+      <layer rmin="700*mm" rmax="5200*mm" dz="150*mm" z_offset="2355*mm" material="G4_Fe" vis="MuonVis" color="FF0000"/>
+    </detector>
+
+    <detector name="MuonFwd-R2" type="SimpleLayeredCylinder"  vis="MuonVisEnv">
+      <dimensions rmin="685*mm" rmax="5220*mm" dz="20*mm" z_offset="2440*mm" material="Air"/>
+      <!-- 2nd Forward mRWELL layer R-->
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.8*mm" z_offset="2440.8*mm" material="G10_FR40x5633439ca570" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="2440.8175*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="3.0*mm" z_offset="2443.8175*mm" material="C19-H20-O4" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0025*mm" z_offset="2443.82*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.025*mm" z_offset="2443.845*mm" material="Kapton" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.00005*mm" z_offset="2443.84505*mm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="2443.86255*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.05*mm" z_offset="2443.91255*mm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="2443.93005*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.8*mm" z_offset="2444.73005*mm" material="G4_Si0x56335d3d1480" vis="MuonVis" />
+    </detector>
+
+    <detector name="ReturnYokeFwd-R2" type="SimpleLayeredCylinder"  vis="MuonVisEnv" color="FF0000">
+      <dimensions rmin="685*mm" rmax="5220*mm" dz="160*mm" z_offset="2530*mm" material="Air"/>
+      <!-- 2nd Return Yoke layer R-->
+      <layer rmin="700*mm" rmax="5200*mm" dz="150*mm" z_offset="2535*mm" material="G4_Fe" vis="MuonVis" color="FF0000"/>
+    </detector>
+
+    <detector name="MuonFwd-R3" type="SimpleLayeredCylinder"  vis="MuonVisEnv">
+      <dimensions rmin="685*mm" rmax="5220*mm" dz="20*mm" z_offset="2620*mm" material="Air"/>
+      <!-- 3rd Forward mRWELL layer R-->
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.8*mm" z_offset="2620*mm" material="G10_FR40x5633439ca570" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="2620.8*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="3.0*mm" z_offset="2620.8175*mm" material="C19-H20-O4" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0025*mm" z_offset="2623.8175*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.025*mm" z_offset="2623.82*mm" material="Kapton" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.00005*mm" z_offset="2623.845*mm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="2623.84505*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.05*mm" z_offset="2623.86255*mm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="2623.91255*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.8*mm" z_offset="2623.93005*mm" material="G4_Si0x56335d3d1480" vis="MuonVis" />
+    </detector>
+
+
+
+
+
+
+    <detector name="MuonFwd-L1" type="SimpleLayeredCylinder"  vis="MuonVisEnv">
+      <dimensions rmin="685*mm" rmax="5220*mm" dz="20*mm" z_offset="-2260*mm" material="Air"/>
+      <!-- 1st Forward mRWELL layer L-->
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.8*mm" z_offset="-2260.8*mm" material="G10_FR40x5633439ca570" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="-2260.8175*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="3.0*mm" z_offset="-2263.8175*mm" material="C19-H20-O4" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0025*mm" z_offset="-2263.82*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.025*mm" z_offset="-2263.845*mm" material="Kapton" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.00005*mm" z_offset="-2263.84505*mm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="-2263.86255*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.05*mm" z_offset="-2263.91255*mm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="-2263.93005*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.8*mm" z_offset="-2264.73005*mm" material="G4_Si0x56335d3d1480" vis="MuonVis" />
+    </detector>
+
+    <detector name="ReturnYokeFwd-L1" type="SimpleLayeredCylinder"  vis="MuonVisEnv" color="FF0000">
+      <dimensions rmin="685*mm" rmax="5220*mm" dz="160*mm" z_offset="-2350*mm" material="Air"/>
+      <!-- 1st Return Yoke layer L-->
+      <layer rmin="700*mm" rmax="5200*mm" dz="150*mm" z_offset="-2355*mm" material="G4_Fe" vis="MuonVis" color="FF0000"/>
+    </detector>
+
+    <detector name="MuonFwd-L2" type="SimpleLayeredCylinder"  vis="MuonVisEnv">
+      <dimensions rmin="685*mm" rmax="5220*mm" dz="20*mm" z_offset="-2440*mm" material="Air"/>
+      <!-- 2nd Forward mRWELL layer L-->
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.8*mm" z_offset="-2440.8*mm" material="G10_FR40x5633439ca570" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="-2440.8175*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="3.0*mm" z_offset="-2443.8175*mm" material="C19-H20-O4" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0025*mm" z_offset="-2443.82*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.025*mm" z_offset="-2443.845*mm" material="Kapton" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.00005*mm" z_offset="-2443.84505*mm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="-2443.86255*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.05*mm" z_offset="-2443.91255*mm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="-2443.93005*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.8*mm" z_offset="-2444.73005*mm" material="G4_Si0x56335d3d1480" vis="MuonVis" />
+    </detector>
+
+    <detector name="ReturnYokeFwd-L2" type="SimpleLayeredCylinder"  vis="MuonVisEnv" color="FF0000">
+      <dimensions rmin="685*mm" rmax="5220*mm" dz="160*mm" z_offset="-2530*mm" material="Air"/>
+      <!-- 2nd Return Yoke layer L-->
+      <layer rmin="700*mm" rmax="5200*mm" dz="150*mm" z_offset="-2535*mm" material="G4_Fe" vis="MuonVis" color="FF0000"/>
+    </detector>
+
+    <detector name="MuonFwd-L3" type="SimpleLayeredCylinder"  vis="MuonVisEnv">
+      <dimensions rmin="685*mm" rmax="5220*mm" dz="20*mm" z_offset="-2620*mm" material="Air"/>
+      <!-- 3rd Forward mRWELL layer L-->
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.8*mm" z_offset="-2620*mm" material="G10_FR40x5633439ca570" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="-2620.8*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="3.0*mm" z_offset="-2620.8175*mm" material="C19-H20-O4" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0025*mm" z_offset="-2623.8175*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.025*mm" z_offset="-2623.82*mm" material="Kapton" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.00005*mm" z_offset="-2623.845*mm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="-2623.84505*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.05*mm" z_offset="-2623.86255*mm" material="CarbonFiber" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.0175*mm" z_offset="-2623.91255*mm" material="G4_Cu" sensitive="true" vis="MuonVis" />
+      <layer rmin="700*mm" rmax="5200*mm" dz="0.8*mm" z_offset="-2623.93005*mm" material="G4_Si0x56335d3d1480" vis="MuonVis" />
+    </detector>
+
+  </detectors>
+
+
+
+</lccdd>
