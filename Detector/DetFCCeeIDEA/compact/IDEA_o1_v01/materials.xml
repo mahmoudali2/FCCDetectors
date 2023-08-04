@@ -144,7 +144,7 @@
     <fraction n="0.6666666" ref="H"/>
     <fraction n="0.3333333" ref="C"/>
   </material>
-
+Kapton
   <material name="Kapton">
     <D value="1.43" unit="g/cm3" />
     <composite n="22" ref="C"/>
@@ -257,5 +257,20 @@
     <fraction n="0.084" ref="Ti"/>
     <fraction n="0.084" ref="Nb"/>
   </material>
+
+  <!-- FCCeeIDEA: material for the microRWELL detectors -->
+  <material name="C19-H20-O4">
+    <D value="1.16" unit="g/cm3" />
+    <composite n="19" ref="C"/>
+    <composite n="20" ref="H" />
+    <composite n="4" ref="O" />
+  </material>
+
+  <material name="G4_Fe" state="solid">
+    <MEE unit="eV" value="286"/>
+    <D value="7.874" unit="g/cm3" />
+    <fraction n="1" ref="Fe"/>
+  </material>
+
 
 </materials>
